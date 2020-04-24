@@ -63,7 +63,7 @@ header {
   background-color:#fff;
  Border-bottom: 3px solid #FF6A32;	
 	
-  position :fixed;
+  position :block;
   top: 0;
   z-index: 10;
 	
