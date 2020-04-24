@@ -236,7 +236,7 @@
 
   .menuup {
 	 margin-top: 8px;
-  display: inline-block;
+  display: block;
  float: right;	  
   cursor: pointer;
 	  
