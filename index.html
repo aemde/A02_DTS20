@@ -12,14 +12,13 @@
 	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
-    <header  >
+    <header>
       <div class="container">
         <div class="header-left">
           <img class="logo" src="logo21.png">
         </div>
 		  
-        <!-- Tambahkan ikon menu dibawah -->
-        <span class="fa fa-bars menu-icon"></span>
+        
         <div class="header-right">
 			
           <a class="active" href="#">Home</a>
@@ -39,6 +38,7 @@
 		
 		
     </header>
+  <div class="content">
     <div class="top-wrapper">
       <div class="container">
         <h1 class="animated zoomInDown">Digital Talent</h1>
@@ -181,19 +181,32 @@ Progate</p>
         <p>Learn to code, learn to be creative.</p>
       </div>
     </footer>
+</div>
   </body>
 	<script>
 function myFunction(x) {
   x.classList.toggle("change");
 }
-		
-	
- 
+
 </script>
 <script>
   AOS.init();
 </script>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
 	
 	
 </html>
-
