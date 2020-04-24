@@ -1,0 +1,268 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+ 
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 23px;
+    
+  }
+  .heading h3 {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .container h2{
+    font-size: 20px;
+	  
+  }
+	
+
+
+ }
+	
+
+/* Untuk Smartphone */
+@media all and (max-width: 768px) {
+	
+	/*-----------menu up*/
+
+  .menuup {
+	 margin-top: 8px;
+  display: inline-block;
+ float: right;	  
+  cursor: pointer;
+	  
+}
+
+	.bar1, .bar2, .bar3 {
+  width: 32px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+	
+	
+}
+
+/*-----------*/
+ .lesson {
+    width: 100%;
+  }
+	.lesson-icon img {
+
+  	width:300px;
+
+}
+	.lesson h3{
+		
+	padding:6px 30px 6px;;
+}
+	.lesson p{
+	padding:1px 45px;
+}
+  footer {
+    text-align: center;
+  }
+ 
+  .btn {
+    width: 100%;
+  }
+	
+	
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+ 
+  .header-right{
+    display:  none;
+  }
+  
+ 
+  .menu-icon{
+    display:  block;
+  }
+  
+  .top-wrapper h1{
+    font-size: 24px;
+	line-height: 26px;
+	margin-left: 42px;
+}
+	.top-wrapper h3{
+    font-size: 21px;
+	 margin-left: 42px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+	margin-left: 42px;
+  }
+	header {
+  height: 62px;
+  width: 100%;
+  background-color:#fff;
+	Border-bottom: 2px solid #B06255;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+	
+	.logo {
+  width: 80px;
+  margin-top: 12px;
+}
+	.box{
+		width:65%;
+	}
+	
+
+.img-responsive{
+	padding: 65px 20px 2px;
+	width:100%;
+	height:300px;
+	
+}
+	
+}
+
+
+
+/*------------------*/
+@media only screen and (min-width: 768px) {
+	.top-wrapper {
+  padding: 180px 0 210px 0;
+  
+}
+		.top-wrapper h1 {
+  
+  font-size: 50px;
+  letter-spacing: 1px;
+ padding-top: 55px;
+			margin-bottom: 1px;
+	text-align: center;
+	
+	
+}
+	.top-wrapper h3{
+  
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+	text-align: center;
+	
+	
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+	padding-top: 6px;
+  margin-bottom: 1px;
+	text-align: center;
+}
+.header {
+	background-color:#fff;
+	
+		
+		
+	}
+	
+	/* animate */
+
+.top-wrapper span.animated {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 500px;
+  height: 4px;
+  width: 1px;
+  border-radius: 2px;
+  background: #fff;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+	opacity: 0.5;
+}
+
+.top-wrapper span::before,
+.top-wrapper span::after {
+  position: absolute;
+  top: -23px;
+  content: "";
+  height: 30px;
+  width: 2px;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.top-wrapper span::before {
+  left: -10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform:    rotate(-45deg);
+  -ms-transform:     rotate(-45deg);
+  -o-transform:      rotate(-45deg);
+  transform:         rotate(-45deg);
+}
+
+.top-wrapper span::after {
+  right: -10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  transform:         rotate(45deg);
+}
+
+
+/*--------------*/
+
+	
+	.lesson-icon img {
+	width:206px;
+	}
+	.img-responsive{
+	padding-top: 80px;
+	width:50%;
+	height:380px;
+		position: static
+}
+	
+	
+
+	
+    
+}
+@media all and (max-width: 480px)
+{
+	.box{
+		width:86%;
+	}
+	.min{
+		display: none;
+	}
+	}
+	
+
