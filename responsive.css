@@ -1,280 +1,244 @@
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
- 
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-  
-  .heading h2 {
-    font-size: 23px;
-    
-  }
-  .heading h3 {
-    font-size: 20px;
-    font-weight: normal;
-  }
-  .container h2{
-    font-size: 20px;
-	  
-  }
-	
+/* Mulai code Anda dari baris terakhir */
 
-
- }
-	
-
-/* Untuk Smartphone */
-@media all and (max-width: 768px) {
-	
-	
- .lesson {
-    width: 100%;
-  }
-	.lesson-icon img {
-
-  	width:260px;
-
-}
-	.lesson h3{
-		
-	padding:6px 30px 6px;;
-}
-	.lesson p{
-	padding:1px 45px;
-}
-  footer {
-    text-align: center;
-  }
- 
-  .btn {
-    width: 100%;
-  }
-	
-	
-  
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-  
- 
-  .header-right{
-    display:  none;
-  }
-  
- 
-  .menu-icon{
-    display:  block;
-  }
-  
-  .top-wrapper h1{
-    font-size: 24px;
-	line-height: 26px;
-	margin-left: 42px;
-}
-	.top-wrapper h3{
-    font-size: 21px;
-	 margin-left: 42px;
-  }
-  
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-	margin-left: 42px;
-  }
-	header {
-  height: 62px;
-  
-  background-color:#fff;
-	Border-bottom: 2px solid #B06255;
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-	
-	.logo {
-  width: 80px;
-  margin-top: 12px;
-}
-	.box{
-		width:65%;
-	}
-	
-
-.img-responsive{
-	padding: 65px 20px 2px;
-	width:100%;
-	height:300px;
-	
-}
-	/*-----------menu up*/
-
-  .menuup {
-	margin-top: 8px;
-  	display: fixed;
- 	float: right;	  
- 	cursor: pointer;
-	  
+* {
+  box-sizing: border-box;
 }
 
-	.bar1, .bar2, .bar3 {
-  width: 27px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
 
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+body {
+  font-family: "Lucida Grande";
 }
 
-.change .bar2 {opacity: 0;}
+a {
+  text-decoration: none;
+}
 
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
-	
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 	
 }
 
-/*-----------*/
-	
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("backgrond.png");
+  background-size: cover;
+  color: white;
+  text-align: left;
 }
 
-
-
-/*------------------*/
-@media only screen and (min-width: 768px) {
-	.top-wrapper {
-  padding: 180px 0 210px 0;
-  
-}
-		.top-wrapper h1 {
-  
-  font-size: 50px;
-  letter-spacing: 1px;
- padding-top: 55px;
-			margin-bottom: 1px;
-	text-align: center;
-	
-	
-}
-.top-wrapper h3{
-  
-  font-size: 40px;
+.top-wrapper h3 {
+  opacity: 0.9;
+  font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 1px;
-	text-align: center;
+  
 	
 	
 }
 
 .top-wrapper p {
   opacity: 0.7;
-	padding-top: 6px;
   margin-bottom: 1px;
-	text-align: center;
 }
-.header {
-	background-color:#fff;
-	
-		
-		
-	}
-	
-	/* animate */
 
-.top-wrapper span.animated {
-  position: absolute;
+
+
+
+
+
+header {
+  height: 72px;
+  width: 100%;
+  background-color:#fff;
+ Border-bottom: 3px solid #FF6A32;	
+	
+  position :block;
+  top: 0;
+  z-index: 10;
+	
+}
+
+.content {
+  padding: 0px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+.logo {
+  width: 104px;
+  margin-top: 14px;
+	
+}
+.rilis{
+	margin-right: auto;
+	margin-left: auto;
+	width: 160px;
+	padding-top: 1px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -15px;
+	
+	
+}
+
+.header-right a {
+  line-height: 57px;
+  padding: 3px 18px 0 18px;
+  color: #373636;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+	
+	
+}
+
+
+	
+
+
+
+.lesson-wrapper {
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #fff;
+	
+  text-align: center;
+}
+
+.heading {
+  padding-top: 5px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+	padding-top: 22px;
+	
+}
+.heading h3 {
+  font-weight: normal;
+	padding-top: 4px;
+}
+.box{
+ 
+  width:166px;
   margin: auto;
-  right: 0;
-  left: 0;
-  top: 550px;
-  height: 4px;
-  width: 1px;
-  border-radius: 2px;
-  background: #fff;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-	opacity: 0.5;
+  border: 3px solid #fff
 }
 
-.top-wrapper span::before,
-.top-wrapper span::after {
+.lesson {
+  float: left;
+  width: 20%;
+	padding-left: 5px;
+}
+
+.lesson-icon {
+  position: relative;
+	
+}
+.lesson-icon img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.lesson-icon p {
   position: absolute;
-  top: -23px;
-  content: "";
-  height: 30px;
-  width: 2px;
-  border-radius: 2px;
-  background: #fff;
+  top: 44%;
+  width: 100%;
+  color: white;
 }
 
-.top-wrapper span::before {
-  left: -10px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform:    rotate(-45deg);
-  -ms-transform:     rotate(-45deg);
-  -o-transform:      rotate(-45deg);
-  transform:         rotate(-45deg);
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
 }
 
-.top-wrapper span::after {
-  right: -10px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform:    rotate(45deg);
-  -ms-transform:     rotate(45deg);
-  -o-transform:      rotate(45deg);
-  transform:         rotate(45deg);
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Ketik code Anda dibawah */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
 
-/*--------------*/
 
-	
-	.lesson-icon img {
-	width:210px;
-	}
-	.img-responsive{
-	padding-top: 80px;
-	width:50%;
-	height:380px;
-		position: static
-}
-	
-	
 
-	
-    
-}
-@media all and (max-width: 480px)
-{
-	.box{
-		width:86%;
-	}
-	.min{
-		display: none;
-	}
-	.heading h2 {
-    font-size: 19px;
-	
-    
-  }
-  .heading h3 {
-    font-size: 17px;
-    font-weight: normal;
-  }
-  
-	
-}
-	
 
