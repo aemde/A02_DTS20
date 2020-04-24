@@ -118,7 +118,7 @@
 
   .menuup {
 	margin-top: 8px;
-  	display: block;
+  	display: fixed;
  	float: right;	  
  	cursor: pointer;
 	  
