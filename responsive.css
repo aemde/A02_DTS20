@@ -168,7 +168,7 @@
 	
 	
 }
-	.top-wrappheaer h3{
+.top-wrapper h3{
   
   font-size: 40px;
   letter-spacing: 1px;
@@ -198,7 +198,7 @@
   margin: auto;
   right: 0;
   left: 0;
-  top: 500px;
+  top: 550px;
   height: 4px;
   width: 1px;
   border-radius: 2px;
