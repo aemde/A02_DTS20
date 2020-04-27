@@ -4,105 +4,113 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A2.TEAM</title>
+	  <link rel="icon" href="logo21.png">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
-	<link rel="stylesheet" href="animate.css">
+	  <link rel="stylesheet" href="animate.css">
+	  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,italic,bold" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
-  <body>
-    <header>
-      <div class="container">
+ 
+<body>
+<div class="headerfix" id="myHeaderfix">
+  <header>
+      <div class="container"> 
         <div class="header-left">
           <img class="logo" src="logo21.png">
         </div>
 		  
-        
         <div class="header-right">
-			
-          <a class="active" href="#">Home</a>
-			<a href="#">Team</a>
-          <a href="#">Contact</a>
-          <a href="#" class="login">About</a>
+			     <a href="#top-wrapper">Home</a>
+			     <a href="#lesson-wrapper">Team</a>
+			     <a href="#message-wrapper">DTS</a>
+			     <a href="#Rating">Rating</a>
+           <a href="#tim">About</a>
         </div>
-		  <div class="menuup" onclick="myFunction(this)">
-  			<div class="bar1"></div>
-  			<div class="bar2"></div>
-  			<div class="bar3"></div>
-			</div>
- 	</div>
-		
-		
-		
-		
-		
-    </header>
-  <div class="content">
-    <div class="top-wrapper">
+		  
+            <span class="menuup" style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <div id="mySidenav" class="sidenav"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <ul class="mcd-menu">
+                  <a href="#"><img src="logo21.png" class="logo2" alt=""></a>
+                  <li><a href="#top-wrapper"> <i class="fa fa-home"></i> <strong>Home</strong> </a> 
+                  </li>
+                  <li><a href="#lesson-wrapper"><i class="fas fa-users"></i><strong>Team</strong></a>
+                  </li>
+                  <li><a href="#message-wrapper"><i class="fa fa-spinner"></i><strong>DTS</strong></a>
+                  </li>
+                  <li><a href="#Rating"><i class="far fa-images"></i><strong>Rating</strong></a>
+                  </li>
+                  <li><a href="#tim"><i class="fas fa-address-card"></i><strong>About</strong></a>
+                  </li>
+               </ul>
+            </div>
+      </div>
+  </header>
+ </div>
+ <div class="content">
+  <div class="top-wrapper" id="top-wrapper">
       <div class="container">
         <h1 class="animated zoomInDown">Digital Talent</h1>
-        <h3 class="animated fadeInUpBig nUp">  Scholarship 2020</h3>
-        
-		  <p class="animated slideInRight">HTML, CSS, Javascript
-Progate</p>
-		  <p  class="animated slideInLeft"> - Online Academy - (OA)</p>
-        
-       
+        <h3 class="animated fadeInUpBig nUp">Scholarship 2020</h3>
+        <p 	class="animated slideInRight">HTML, CSS, Javascript Progate</p>
+        <p  class="animated slideInLeft"> - Online Academy - (OA)</p>
       </div>
-		<span class="animated bounce"></span>
-		
-    </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2> ____&nbsp; <strong>A2 Team of DTS 2020</strong> ____</h2>
+		  <span class="animated bounce"></span>
+  </div>
+  
+  <div class="lesson-wrapper" id="lesson-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2 class="animated zoomIn" > ____&nbsp; <strong>A2 Team of DTS 2020</strong> ____</h2>
+      </div>
+      
+      <div class="lessons">
+         <div class="lesson" data-aos="fade-up">
+            <div class="lesson-icon">
+              <img src="A1.png" alt="Ahmad Mursyidi" >
+				   </div>
+			  <div class="box"> 
+			  	<h3>Ahmad Mursyidi</h3>
+			  	<p class="txt">Demak, JATENG</p>
+			  	<p>Manajemen informasi dan komunikasi 	-2015</p>
+			  </div>
+			  <div class="lesson-icon min">
+          <img src="bawah.png" >
         </div>
-        <div class="lessons">
-         
-          <div class="lesson" data-aos="fade-up">
-            <div class="lesson-icon">
-              <img src="AMD.png" >
-              
-            </div>
-			  <div class="box"> 
-			  	<h3>Ahmad Mursyidi</h3>
-			  	<p class="txt">Demak, JATENG</p>
-			  	<p>Manajemen informasi dan komunikasi 	-2015</p>
-			  </div>
-			  
-			  <div class="lesson-icon min">
-              <img src="bawah.png" >
-              
-            </div>
-			   
-          </div>
+      </div>
+      
+
 		  <div class="lesson" data-aos="fade-down">
-            <div class="lesson-icon">
-              <img src="AMD.png" >
-              
-            </div>
-			  <div class="box"> 
-			  	<h3>Ahmad Mursyidi</h3>
-			  	<p class="txt">Demak, JATENG</p>
-			  	<p>Manajemen informasi dan komunikasi 	-2015</p>
-			  </div>
-			  
-			  <div class="lesson-icon min">
-              <img src="bawah.png" >
-              
-            </div>
-			   
+          <div class="lesson-icon">
+            <img src="A2.png" >
           </div>
+			    <div class="box"> 
+			  	  <h3>Adral Arhack</h3>
+			    	<p class="txt">Sulawesi Barat</p>
+			    	<p>Email-  adralarhack@gmail.com</p>
+			    </div>
+			    <div class="lesson-icon min">
+            <img src="bawah.png" >
+            </div>
+        </div>
+        
+
 			<div class="lesson" data-aos="fade-up">
             <div class="lesson-icon">
-              <img src="AMD.png" >
+              <img src="A3.png" >
               
             </div>
 			  <div class="box"> 
-			  	<h3>Ahmad Mursyidi</h3>
+			  	<h3>Akmal Irfan Maulana</h3>
 			  	<p class="txt">Demak, JATENG</p>
-			  	<p>Manajemen informasi dan komunikasi 	-2015</p>
+			  	<p> Teknik Komputer Angkatan -2019</p>
 			  </div>
 			  
 			  <div class="lesson-icon min">
@@ -113,13 +121,13 @@ Progate</p>
           </div>
 			<div class="lesson" data-aos="fade-down">
             <div class="lesson-icon">
-              <img src="AMD.png" >
+              <img src="A4.png" >
               
             </div>
 			  <div class="box"> 
-			  	<h3>Ahmad Mursyidi</h3>
-			  	<p class="txt">Demak, JATENG</p>
-			  	<p>Manajemen informasi dan komunikasi 	-2015</p>
+			  	<h3>Jati Santoso</h3>
+			  	<p class="txt">Parepare, SULSEL</p>
+			  	<p> Pend. Guru Sekolah dasar  -2016</p>
 			  </div>
 			  
 			  <div class="lesson-icon min">
@@ -130,13 +138,14 @@ Progate</p>
           </div>
 			<div class="lesson" data-aos="fade-up">
             <div class="lesson-icon">
-              <img src="AMD.png" >
+              <img src="A5.png" >
               
             </div>
 			  <div class="box"> 
-			  	<h3>Ahmad Mursyidi</h3>
-			  	<p class="txt">Demak, JATENG</p>
-			  	<p>Manajemen informasi dan komunikasi 	-2015</p>
+			  	<h3>Agus Fitriono</h3>
+			  	<p class="txt">Indonesia</p>
+			  	<p>Aparatur Sipil Negara</p>
+				  <p>#4867</p>
 			  </div>
 			  
 			  <div class="lesson-icon min">
@@ -150,11 +159,15 @@ Progate</p>
         </div>
       </div>
     </div>
-    <div class="message-wrapper">
+
+    
+    <div class="message-wrapper" id="message-wrapper">
       <div class="container">
 		  <div class="heading">
-          <h2 data-aos="fade-right">Mau belajar Coding bersama-sama </h2><h3 data-aos="fade-right">dengan dipantau instruktur profesional secara gratis?</h3>
+          <h2 data-aos="fade-right">Mau belajar Coding bersama-sama </h2>
+          <h3 data-aos="fade-right">dengan dipantau instruktur profesional secara gratis?</h3>
 			  <br>
+			  
           <h3 data-aos="fade-left">Ayo bergabung bersama dalam program pelatihan&nbsp;Digital Talent Scholarship 2020 sekarang !!!</h3>
 			
         </div>
@@ -166,36 +179,161 @@ Progate</p>
 		  
       </div>
 		
-		<iframe class="img-responsive" src="https://www.youtube.com/embed/o1ZQaDFpgp8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 		
 		
+		<iframe class="img-responsive"  src="https://www.youtube.com/embed/o1ZQaDFpgp8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+		
+				
 		 
     </div>
-	  
+	 
+	 <div class="Rating" id="Rating">
+		 <h2>TEAM RATING</h2>
+		 <div class="container3">
+<div class="center"> 
+	    <em class="fas fa-star " data_temp_dwid="1"></em> <em class="fas fa-star" data_temp_dwid="2"></em> <em class="fas fa-star" data_temp_dwid="3"></em> <em class="fas fa-star" data_temp_dwid="4"></em> <em class="far fa-star" data_temp_dwid="5"></em></div>
+			 
+			
+			 <h3 data-aos="fade-left"> 4.6 average based on 254 reviews. </h3>
+
+
+
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5" data-aos="fade-right"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4" data-aos="fade-right"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3" data-aos="fade-right"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2" data-aos="fade-right"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1" data-aos="fade-right"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+	</div>
+	</div> 
+	
+	
+	
+
+	 
+	<div class="tim" id="tim"> 
+		<div class="container2">
+			
+	 		<h2 data-aos="zoom-in">A2.TeamDTS20</h2>
+			<p data-aos="zoom-in"> Team yang solid dengan kelebihan sebagai berikut</p>
+			<div class="lesson-icon mon">
+			<img src="form6.png" width="330" alt="rating"  >
+			</div>
+			
+	 			<div class="row">
+  					<div class="column" >
+    <div class="card">
+      <p><i class="fa fa-user "></i></p>
+      <h3>5</h3>
+      <p>Team</p>
+    </div>
+  </div>
+
+ 					<div class="column" >
+    <div class="card">
+      <p><i class="fa fa-check "></i></p>
+		
+      <h3>55+</h3>
+      <p>Projects</p>
+    </div>
+  </div>
+  
+  					<div class="column" >
+    <div class="card">
+     <p><i class="fa fa-laugh-squint "></i></p>
+      <h3>100+</h3>
+      <p>Clients</p>
+    </div>
+  </div>
+  
+ 					<div class="column" >
+    <div class="card">
+      <p><i class="fa fa-coffee "></i></p>
+      <h3>100+</h3>
+      <p>Meetings</p>
+    </div>
+  </div>
+				</div>
+		</div>
+	 </div>
 
 	  
 	  
     <footer>
       <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
+        <img src="logo21.png">
+        <p>Copyright 2020 A2.Team DTS20</p>
+		
+		  
       </div>
     </footer>
 </div>
   </body>
 	<script>
-function myFunction(x) {
-  x.classList.toggle("change");
+function openNav() {
+  document.getElementById("mySidenav").style.width = "46%";
 }
 
-</script>
-<script>
-  AOS.init();
-</script>
-	<script>
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+		
+AOS.init({disable: 'mobile'});
+
 window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("myHeader");
+var header = document.getElementById("myHeaderfix");
 var sticky = header.offsetTop;
 
 function myFunction() {
@@ -204,9 +342,12 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
+	
+	var x = window.matchMedia("(max-width: 760px)")
 }
+
+		
 </script>
 
-	
-	
+
 </html>
