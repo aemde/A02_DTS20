@@ -1,4 +1,4 @@
-/* Untuk Tablet */
+
 @media all and (max-width: 1000px) {
  
   .lesson {
@@ -11,7 +11,6 @@
   
   .heading h2 {
     font-size: 23px;
-    
   }
   .heading h3 {
     font-size: 20px;
@@ -19,17 +18,117 @@
   }
   .container h2{
     font-size: 20px;
-	  
-  }
+	}
 	
-
-
  }
 	
-
-/* Untuk Smartphone */
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) {
+	#mySidenav {display: none;}
+	.menuup{display: none;}
 	
+	header {
+  height: 72px;
+  width: auto;
+  background-color:#fff;
+ Border-bottom: 3px solid #FF6A32;	
+	
+  
+  top: 0;
+  z-index: 100;
+	
+}
+}
+@media all   and (max-width: 768px) {
+	
+	.header {
+	background-color:#fff;
+	
+		
+		
+	}
+	
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+	
+
+  overflow-x: hidden;
+  transition: 0.2s;
+  padding-top: 1px;
+  text-align:right;
+	
+}
+
+.sidenav a {
+  padding: 1px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+
+ 
+}
+
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 36px;
+  margin-left: 50px;
+  opacity: 0.4;
+}
+
+.mcd-menu {
+	width: 140px;
+	margin-top: 65px;
+}
+	.mcd-menu li a {
+		height:35px;
+	}
+	.mcd-menu li a i {
+		font-size: 16px;
+		color: #191918;
+		float:right;
+	}
+	.mcd-menu li a strong {
+		font-size: 19px;
+		color: black;
+		padding-right: 13px;
+		
+	}
+	
+	.mcd-menu li > ul {
+		min-width:180px;
+	}
+	.mcd-menu li:hover > ul {
+		min-width:180px;
+		left:100px;
+	}
+	.mcd-menu li ul li > ul, .mcd-menu li ul li ul li > ul {
+		min-width:150px;
+	}
+	.mcd-menu li ul li:hover > ul {
+		left:180px;
+		min-width:150px;
+	}
+	.mcd-menu li ul li ul li:hover > ul {
+		left:150px;
+		min-width:150px;
+	}
+	.mcd-menu li ul a {
+		font-size:12px;
+	}
+	.mcd-menu li ul a i {
+		font-size:12px;
+	}
 	
  .lesson {
     width: 100%;
@@ -56,9 +155,7 @@
 	
 	
   
-  .facebook {
-    margin-bottom: 10px;
-  }
+  
   
   .top-wrapper {
     text-align: left;
@@ -89,19 +186,15 @@
     line-height: 20px;
 	margin-left: 42px;
   }
-	header {
-  height: 62px;
-  
-  background-color:#fff;
-	Border-bottom: 2px solid #B06255;
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
+
 	
 	.logo {
   width: 80px;
   margin-top: 12px;
+}
+		.logo2 {
+  width: 100px;
+  margin-top: 1px;
 }
 	.box{
 		width:65%;
@@ -116,40 +209,30 @@
 }
 	/*-----------menu up*/
 
-  .menuup {
-	margin-top: 8px;
-  	display: fixed;
- 	float: right;	  
- 	cursor: pointer;
-	  
-}
-
-	.bar1, .bar2, .bar3 {
-  width: 27px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+ .menuup{ display: block;margin-top: 10px; 
+	float: right;
+  margin-right: 15px;
 	
+	}
+
+	.Rating h2 {
+  font-weight: normal;
+	font-size: 16px;
+	padding-top: 15px;
+	text-align: center;
+	}
 	
+	Rating h3 {
+  font-weight: normal;
+	font-size: 15px;
+	padding-top: 4px;
+	padding-bottom: 14px;
+	text-align: center;
 }
 
-/*-----------*/
 	
-}
 
+}
 
 
 /*------------------*/
@@ -158,6 +241,7 @@
   padding: 180px 0 210px 0;
   
 }
+	
 		.top-wrapper h1 {
   
   font-size: 50px;
@@ -184,12 +268,7 @@
   margin-bottom: 1px;
 	text-align: center;
 }
-.header {
-	background-color:#fff;
-	
-		
-		
-	}
+
 	
 	/* animate */
 
@@ -252,18 +331,82 @@
 }
 	
 	
-
-	
     
 }
-@media all and (max-width: 480px)
+@media all and (min-width: 481px)and (max-width: 768px)
+{	 
+	header {
+  height: 60px;
+  width: auto;
+  background-color:#fff;
+ Border-bottom: 3px solid #FF6A32;	
+	
+  
+  top: 0;
+  z-index: 100;
+	
+}
+}
+@media all and (max-width: 480px) 
 {
+	
+.container {
+	min-width: 100%;}
+.container2 {
+	min-width: 100%;}
+.container3 {
+	min-width: 100%;}
+	
+	
+  header {
+  height: 60px;
+  width: auto;
+  background-color:#fff;
+ Border-bottom: 3px solid #FF6A32;	
+	
+  position :block;
+  top: 0;
+  z-index: 100;
+	
+}
+	
+	
+	
+	
+	#top-wrapper{
+		position: relative;
+		z-index: -1;
+	}
+	#lesson-wrapper{
+		position: relative;
+		z-index: -1;
+	}
+	#message-wrapper{
+		position: relative;
+		z-index: -1;
+	}
+	#Rating{
+		position: relative;
+		z-index: -1;
+	}
+	#tim{
+		position: relative;
+		z-index: -1;
+	}
+	
+		
 	.box{
 		width:86%;
 	}
 	.min{
 		display: none;
 	}
+	.mon{
+		display: block;
+		margin-bottom:28px;
+	}
+	
+	
 	.heading h2 {
     font-size: 19px;
 	
@@ -273,8 +416,97 @@
     font-size: 17px;
     font-weight: normal;
   }
-  
+	.column {
+    width: 45%;
+    display: block;
+    margin-bottom: 10px;
+		margin-left: 3.5%;
+		margin-right: 0.5%;
+		padding: 1px 2px;
+		
+		
+  }
+	
+
+	
+	
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 6px 6px;
+  text-align: center;
+ 
+	background-color: #fff;
+	 
+	
+	
+  color: black;
+  vertical-align: middle;
+}
+	.card h3{
+		font-size: 17px;
+	}
+	.card p{
+		font-size: 16px;
+	}
+
+
+.fa {font-size:70px; color:#FF6A32; padding-bottom: 10px;}
+	
+.tim{
+	margin: 5px 5px;
+	display: block;
 	
 }
+.tim h2{
+	font-size: 18px;
+	opacity: 0.9;
+	text-align: center;
+	opacity: 0.9;
+	margin-top: 12px
+	
+	
+}
+.tim p{
+	font-size: 15px;
+	opacity: 0.9;
+	text-align: center;
+	opacity: 0.8;
+	padding: 7px 11px 7px 11px;
+	
+}
+		.Gallery h2 {
+  font-weight: normal;
+  font-size: 19px;
+  padding-top: 15px;
+  text-align: center;
+	
+}
+.Gallery h3 {
+  font-weight: normal;
+	opacity: 0.9;
+	font-size: 16px;
+	padding-top: 4px;
+	padding-bottom: 14px;
+	text-align: center;
+}
+	
+	.side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+	
+	
+}
+
+@media all and (min-width: 680px) 
+{.mon{display: none;}}
+
+
+	
+	
+
 	
 
