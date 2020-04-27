@@ -138,6 +138,12 @@
   	width:260px;
 
 }
+	.lesson-icon2 img {
+
+  	width:260px;
+
+}
+	
 	.lesson h3{
 		
 	padding:6px 30px 6px;;
@@ -322,6 +328,7 @@
 	
 	.lesson-icon img {
 	width:210px;
+		margin: 0 auto;
 	}
 	.img-responsive{
 	padding-top: 80px;
@@ -329,6 +336,7 @@
 	height:380px;
 		position: static
 }
+	
 	
 	
     
@@ -346,6 +354,10 @@
   z-index: 100;
 	
 }
+	.mon{
+		display: block;
+		margin-bottom:28px;
+	}
 }
 @media all and (max-width: 480px) 
 {
@@ -401,10 +413,7 @@
 	.min{
 		display: none;
 	}
-	.mon{
-		display: block;
-		margin-bottom:28px;
-	}
+	
 	
 	
 	.heading h2 {
@@ -501,11 +510,7 @@
 	
 }
 
-@media all and (min-width: 680px) 
-{.mon{display: none;}}
 
-
-	
 	
 
 	
